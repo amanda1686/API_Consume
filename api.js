@@ -51,6 +51,7 @@ const cargarPeliculas = async () => {
                     </div>
                 `;
             });
+            // En caso de Error
             document.getElementById('contenedor').innerHTML = peliculas;
         } else if (respuesta.status === 401) {
             console.log('Llave mal');

@@ -19,7 +19,7 @@ body {
     margin: 10vh 15vh ;
     display: grid;
 	grid-template-columns: repeat(3, 1fr);
-    gap: 20vh;
+    gap: 30vh;
 }
 
 
@@ -30,13 +30,16 @@ body {
 	margin-bottom: 2vh;
 
 }
-
 .contenedor .peliculas .titulo {
 	font-size: 2em;
 	font-weight: 600;
 	margin-top: 2vh;
+	margin-left: 16vh;
+	margin-bottom: 12vh;
 }
-
+img.poster{
+	width: 46vh;
+}
 .paginacion {
 	position: fixed;
 	bottom: 0;
@@ -47,7 +50,6 @@ body {
 	gap: 20px;
 	padding: 10px;
 }
-
 .paginacion button {
 	cursor: pointer;
 	border: none;

@@ -40,6 +40,17 @@ body {
 img.poster{
 	width: 46vh;
 }
+.inputBusqueda{
+	height: 3vh;
+	border: 1px #c98b8b solid;
+	border-radius: 2vh;
+}
+.btnBuscar{
+	height: 3vh;
+	border-radius: 2vh;
+	width: 8vh;
+	border: 1px #c98b8b;
+}
 .paginacion {
 	position: fixed;
 	bottom: 0;
@@ -68,5 +79,5 @@ img.poster{
 }
 
 .paginacion button:hover {
-	background: rgb(19, 124, 115);
+	background: #7c132d;
 }
